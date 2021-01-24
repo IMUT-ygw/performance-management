@@ -23,4 +23,8 @@ public class PerformanceService {
     public Integer addPer(Performance performance){
         return performanceMapper.addPerformance(performance);
     }
+
+    public Integer deleteUser(String userId){
+        return performanceMapper.deleteUser(userId);
+    }
 }

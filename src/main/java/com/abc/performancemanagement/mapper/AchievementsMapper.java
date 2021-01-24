@@ -20,7 +20,6 @@ public interface AchievementsMapper {
     Achievements getAchByDate(String acDate,String acId);
 
 
-
     //更新记录
     @Update({"<script>",
             "update achievements",
@@ -48,6 +47,9 @@ public interface AchievementsMapper {
             "</script>"})
     Integer updateAch(Achievements achievements);
 
+
+    @Delete("delete from achievements where ac_id = #{acId}")
+    Integer deleteUser(String acId);
 
 
 }

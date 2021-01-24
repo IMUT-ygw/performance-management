@@ -39,4 +39,9 @@ public class PersonnelManagementService {
            return  personnelManagementMapper.getAll();
     }
 
+
+    public Integer deleteUser(String userId){
+        return personnelManagementMapper.deleteUser(userId);
+    }
+
 }

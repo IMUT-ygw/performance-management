@@ -33,5 +33,9 @@ public class AchievementsService {
     }
 
 
+    public Integer deleteUser(String userId){
+        return achievementsMapper.deleteUser(userId);
+    }
+
 
 }

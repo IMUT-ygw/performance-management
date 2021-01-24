@@ -75,4 +75,7 @@ public interface PersonnelManagementMapper {
             "</script>"})
     Integer adminUpdate(PersonnelManagement personnelManagement);
 
+
+    @Delete("delete from personnelmanagement where p_id = #{pId}")
+    Integer deleteUser(String pId);
 }

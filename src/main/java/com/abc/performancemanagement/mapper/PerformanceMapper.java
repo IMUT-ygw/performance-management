@@ -3,10 +3,7 @@ package com.abc.performancemanagement.mapper;
 import com.abc.performancemanagement.pojo.Department;
 import com.abc.performancemanagement.pojo.Performance;
 import com.abc.performancemanagement.pojo.PerformanceResult;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Options;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -24,4 +21,8 @@ public interface PerformanceMapper {
     @Insert("insert into performance values(#{perKind},#{perValue},#{perDate},#{perDescribe},#{perUser})")
     @Options(keyColumn = "per_id",keyProperty = "perId",useGeneratedKeys = true)
     Integer addPerformance(Performance performance);
+
+
+    @Delete("delete from performance where per_user = #{perUser}")
+    Integer deleteUser(String perUser);
 }
