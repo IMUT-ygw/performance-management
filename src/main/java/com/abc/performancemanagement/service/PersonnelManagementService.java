@@ -44,4 +44,9 @@ public class PersonnelManagementService {
         return personnelManagementMapper.deleteUser(userId);
     }
 
+    public Integer addUser(PersonnelManagement personnelManagement){
+        System.out.println("service : "+personnelManagement);
+        return personnelManagementMapper.addUser(personnelManagement);
+    }
+
 }

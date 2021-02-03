@@ -32,15 +32,15 @@ public class AchievementsController {
     public Object addAchievement(@RequestBody PersonnelManagement personnelManagement){
         log.info("参数： " + personnelManagement.toString());
         Integer resultInteger = 0;
-        List<PerformanceResult> perByUser = performanceService.getPerByUser(personnelManagement.getPId()); //获取某人每个月的绩点总和
-        Integer price = creditService.getPrice(personnelManagement.getPDepartment()); //获取这个部门每个绩点多少钱
+        List<PerformanceResult> perByUser = performanceService.getPerByUser(personnelManagement.getpId()); //获取某人每个月的绩点总和
+        Integer price = creditService.getPrice(personnelManagement.getpDepartment()); //获取这个部门每个绩点多少钱
         for (int i = 0 ; i < perByUser.size() ; i++){
             Achievements result = new Achievements();
             Double value = perByUser.get(i).getValue(); //某个月绩点总和
-            result.setAcId(personnelManagement.getPId());
-            result.setAcDepart(personnelManagement.getPDepartment());
-            result.setAcTeam(personnelManagement.getPTeam());
-            result.setAcPost(personnelManagement.getPPost());
+            result.setAcId(personnelManagement.getpId());
+            result.setAcDepart(personnelManagement.getpDepartment());
+            result.setAcTeam(personnelManagement.getpTeam());
+            result.setAcPost(personnelManagement.getpPost());
             result.setAcDate(perByUser.get(i).getDate());
             result.setAcValue(value);
             result.setAcSalary(value * price);

@@ -32,13 +32,13 @@ public class GetAllService {
     }
 
     //岗位
-    public List<Post> getPostAll(){
-        return postMapper.getAll();
+    public List<Post> getPostAll(String depart){
+        return postMapper.getAll(depart);
     }
 
     //班组
-    public List<Team> getTeamAll(){
-        return teamMapper.getAll();
+    public List<Team> getTeamAll(String depart){
+        return teamMapper.getAll(depart);
     }
 
     //部门添加

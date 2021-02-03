@@ -14,8 +14,8 @@ import java.util.List;
 public interface PostMapper {
 
     //获取所有部门信息
-    @Select("select * from post")
-    List<Post> getAll();
+    @Select("select * from post where po_department = #{poDepartment}")
+    List<Post> getAll(String poDepartment );
 
 
     //管理员添加部门信息

@@ -25,4 +25,9 @@ public interface PerformanceMapper {
 
     @Delete("delete from performance where per_user = #{perUser}")
     Integer deleteUser(String perUser);
+
+    //获取某个员工每个月份的绩点
+    @Select("SELECT * from  performance WHERE per_user = #{perUser}  ")
+    List<Performance> getPer(String perUser);
+
 }

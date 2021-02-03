@@ -27,4 +27,10 @@ public class PerformanceService {
     public Integer deleteUser(String userId){
         return performanceMapper.deleteUser(userId);
     }
+
+
+    //获取员工具体工作信息
+    public List<Performance> getPre(String userId){
+        return performanceMapper.getPer(userId);
+    }
 }

@@ -23,6 +23,17 @@ public class PersonnelManagementController {
     @Autowired
     private AchievementsService achievementsService;
 
+    @PostMapping("/addUser")
+    public Object addUser(@RequestBody PersonnelManagement personnelManagement){
+        System.out.println("添加人员："+personnelManagement);
+        Integer all= personnelManagementService.addUser(personnelManagement);
+        if(all < 1){
+            return new ResultMsg<Object>(400,"添加失败！",null);
+        }
+        return new ResultMsg<Object>(200,"添加成功！",personnelManagement);
+    }
+
+
     @GetMapping("/getAll")
     public Object getAll(){
         List<PersonnelManagement> all = personnelManagementService.getAll();
@@ -47,7 +58,7 @@ public class PersonnelManagementController {
     @PostMapping("/adminLogin")
     public Object adminLogin(@RequestBody PersonnelManagement personnelManagement){
         System.out.println(personnelManagement);
-        if("admin".equals(personnelManagement.getPId()) || "admin".equals(personnelManagement.getPPwd())){
+        if("admin".equals(personnelManagement.getpId()) || "admin".equals(personnelManagement.getpPwd())){
             return new ResultMsg<String>(200,"登录成功！","管理员登录");
         }
         return  new ResultMsg<String>(400,"登录失败，请检查用户名及密码！",null);
@@ -75,13 +86,12 @@ public class PersonnelManagementController {
 
     @PostMapping("/adminDelete")
     public Object adminDelete(@RequestBody PersonnelManagement personnelManagement){
-        String pId = personnelManagement.getPId();
+        String pId = personnelManagement.getpId();
         Integer a = personnelManagementService.deleteUser(pId);
         Integer b = achievementsService.deleteUser(pId);
         Integer c = performanceService.deleteUser(pId);
         return new ResultMsg<Object>(200,"删除总条数：" + a + b + c,"ps:删除信息包含员工信息，员工绩效信息，员工奖金信息");
     }
-
 
 
 }

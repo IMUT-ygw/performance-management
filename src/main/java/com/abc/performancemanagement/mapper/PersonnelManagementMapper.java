@@ -21,8 +21,7 @@ public interface PersonnelManagementMapper {
     @Select("select * from personnelmanagement where p_id = #{pId} and p_pwd = #{pPwd}")
     PersonnelManagement login(PersonnelManagement personnelManagement);
 
-    @Insert("insert into personnelmanagement values(#{pId},#{pName},#{pPhone},#{pHospital},#{pDepartment},#{pPost},#{pTeam},#{pSalary},#{pGender},#{pPwd})")
-    @Options(keyColumn = "pId",keyProperty = "pId",useGeneratedKeys = true)
+    @Insert("insert into personnelmanagement(p_id,p_name,p_phone,p_hospital,p_department,p_post,p_team,p_salary,p_gender,p_pwd) values(#{pId},#{pName},#{pPhone},#{pHospital},#{pDepartment},#{pPost},#{pTeam},#{pSalary},#{pGender},#{pPwd})")
     Integer addUser(PersonnelManagement personnelManagement);
 
     //员工修改

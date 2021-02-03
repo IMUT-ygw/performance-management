@@ -1,14 +1,12 @@
 package com.abc.performancemanagement.controller;
 
-import com.abc.performancemanagement.pojo.Department;
-import com.abc.performancemanagement.pojo.Post;
-import com.abc.performancemanagement.pojo.ResultMsg;
-import com.abc.performancemanagement.pojo.Team;
+import com.abc.performancemanagement.pojo.*;
 import com.abc.performancemanagement.service.GetAllService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/getAll")
@@ -27,9 +25,9 @@ public class GetAllController {
     }
 
 
-    @GetMapping("/getTeam")
-    public Object getTeam(){
-        List<Team> teamAll = getAllService.getTeamAll();
+    @PostMapping("/getTeam")
+    public Object getTeam(@RequestBody PersonnelManagement personnelManagement){
+        List<Team> teamAll = getAllService.getTeamAll(personnelManagement.getpDepartment());
         if(teamAll.size() < 1){
             return new ResultMsg<Object>(400,"班组数据为空！",null);
         }
@@ -37,9 +35,9 @@ public class GetAllController {
     }
 
 
-    @GetMapping("/getPost")
-    public Object getPost(){
-        List<Post> postAll = getAllService.getPostAll();
+    @PostMapping("/getPost")
+    public Object getPost(@RequestBody PersonnelManagement personnelManagement){
+        List<Post> postAll = getAllService.getPostAll(personnelManagement.getpDepartment());
         if(postAll.size() < 1){
             return new ResultMsg<Object>(400,"岗位数据为空！",null);
         }
@@ -48,6 +46,8 @@ public class GetAllController {
 
     @PostMapping("/addDepart")
     public Object addDepart(@RequestBody Department department){
+        String uuid = UUID.randomUUID().toString();
+        department.setDId(uuid);
         if(getAllService.getByIdDepart(department.getDId(),department.getDName())) {
             Integer integer = getAllService.addDepart(department);
             if (integer < 1) {
@@ -60,6 +60,8 @@ public class GetAllController {
 
     @PostMapping("/addPost")
     public Object addPost(@RequestBody Post post){
+        String uuid = UUID.randomUUID().toString();
+        post.setPoId(uuid);
         if(getAllService.getByIdPost(post.getPoId(),post.getPoName())) {
             Integer integer = getAllService.addPost(post);
             if (integer < 1) {
@@ -73,6 +75,8 @@ public class GetAllController {
 
     @PostMapping("/addTeam")
     public Object addTeam(@RequestBody Team team){
+        String uuid = UUID.randomUUID().toString();
+        team.setTId(uuid);
         if(getAllService.getByIdTeam(team.getTId(),team.getTName())) {
             Integer integer = getAllService.addTeam(team);
             if (integer < 1) {

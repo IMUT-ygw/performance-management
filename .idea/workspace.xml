@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88e55cc9-d4c7-4e69-8269-e9c59482d8f2" name="Default Changelist" comment="" />
+    <list default="true" id="88e55cc9-d4c7-4e69-8269-e9c59482d8f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance-management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/performance-management.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/AchievementsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/AchievementsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/GetAllController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/GetAllController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PerformanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PerformanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PersonnelManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PersonnelManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PerformanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PerformanceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PersonnelManagementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PersonnelManagementMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/TeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/TeamMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/PersonnelManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/PersonnelManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/GetAllService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/GetAllService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/PerformanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/PerformanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/PersonnelManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/PersonnelManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/AchievementsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/AchievementsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/GetAllController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/GetAllController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PerformanceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PerformanceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PersonnelManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PersonnelManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PerformanceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PerformanceMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PersonnelManagementMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PersonnelManagementMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PostMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/TeamMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/TeamMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/pojo/PersonnelManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/pojo/PersonnelManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/GetAllService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/GetAllService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/PerformanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/PerformanceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/PersonnelManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/PersonnelManagementService.class" afterDir="false" />
+    </list>
+    <list id="cbdb435f-6a18-4560-9c51-02c79c6b5ddb" name="完成" comment="" />
+    <list id="51affb6b-2848-4390-8667-2244d89bc742" name="完成 asdas" comment="" />
+    <list id="11b107a4-f474-434d-a9c6-5f39936de69b" name="完成一般" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +82,13 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/logistics/logistics" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,7 +102,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.PerformanceManagementApplication">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abc.performancemanagement.test.Demo" />
+      <module name="performance-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.abc.performancemanagement.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abc.performancemanagement.test.Test" />
+      <module name="performance-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.abc.performancemanagement.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PerformanceManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="performance-management" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.abc.performancemanagement.PerformanceManagementApplication" />
@@ -74,6 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -96,11 +164,20 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="88e55cc9-d4c7-4e69-8269-e9c59482d8f2" name="Default Changelist" comment="" />
+      <changelist id="cbdb435f-6a18-4560-9c51-02c79c6b5ddb" name="完成" comment="" />
+      <changelist id="51affb6b-2848-4390-8667-2244d89bc742" name="完成 asdas" comment="" />
+      <changelist id="11b107a4-f474-434d-a9c6-5f39936de69b" name="完成一般" comment="" />
       <created>1611381559165</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611381559165</updated>
-      <workItem from="1611381566702" duration="29381000" />
+      <workItem from="1611381566702" duration="36151000" />
+      <workItem from="1611496666060" duration="793000" />
+      <workItem from="1611829362716" duration="9714000" />
+      <workItem from="1611904726686" duration="5802000" />
+      <workItem from="1612007211761" duration="1228000" />
+      <workItem from="1612059756027" duration="5799000" />
+      <workItem from="1612316341760" duration="3469000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1611466258622</created>
@@ -116,7 +193,70 @@
       <option name="project" value="LOCAL" />
       <updated>1611467625645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12344">
+      <created>1611468393786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611468393786</updated>
+    </task>
+    <task id="LOCAL-00004" summary="12344&#10;asd&#10;as">
+      <created>1611468427411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611468427411</updated>
+    </task>
+    <task id="LOCAL-00005" summary="saadasd">
+      <created>1611468571259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611468571259</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完成一般">
+      <created>1611470034020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611470034020</updated>
+    </task>
+    <task id="LOCAL-00007" summary="完成">
+      <created>1611470162127</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611470162127</updated>
+    </task>
+    <task id="LOCAL-00008" summary="完成&#10;asdas&#10;&#10;as&#10;d">
+      <created>1611470199197</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611470199197</updated>
+    </task>
+    <task id="LOCAL-00009" summary="完成">
+      <created>1611470242796</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611470242796</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完成">
+      <created>1611470358443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611470358443</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加删除员工及信息">
+      <created>1611472087190</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611472087190</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +300,13 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_TABS">
@@ -170,6 +317,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="12344" />
+    <MESSAGE value="12344&#10;asd&#10;as" />
+    <MESSAGE value="saadasd" />
+    <MESSAGE value="完成一般" />
+    <MESSAGE value="完成&#10;asdas&#10;&#10;as&#10;d" />
+    <MESSAGE value="完成" />
+    <MESSAGE value="添加删除员工及信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加删除员工及信息" />
   </component>
 </project>

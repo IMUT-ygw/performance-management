@@ -20,10 +20,18 @@ public class PerformanceController {
     @Autowired
     private PerformanceService performanceService;
 
-    //获取某人每个月绩效
+    //获取某人每个月绩效总和
     @PostMapping("/getPerByUser")
     public Object getPerByUser(@RequestBody Performance performance){
         List<PerformanceResult> perByUser = performanceService.getPerByUser(performance.getPerUser());
+        return perByUser;
+    }
+
+
+    //获取绩效详细信息
+    @PostMapping("/getAllPer")
+    public Object getAllPer(@RequestBody Performance performance){
+        List<Performance> perByUser = performanceService.getPre(performance.getPerUser());
         return perByUser;
     }
 
@@ -37,5 +45,8 @@ public class PerformanceController {
         }
         return new ResultMsg<Object>(200, "添加成功，添加条数：" + integer, null);
     }
+
+
+
 
 }
