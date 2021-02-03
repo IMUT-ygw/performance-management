@@ -17,4 +17,6 @@ public class Performance {
     private String perDescribe; //加减分描述
     private String perUser; //所属人
 
+
+
 }
