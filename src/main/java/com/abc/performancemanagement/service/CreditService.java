@@ -23,7 +23,7 @@ public class CreditService {
     }
 
     //获取某个部门的绩点钱数
-    public Integer getPrice(String depart){
+    public List<Credit> getPrice(String depart){
         return creditMapper.getPrice(depart);
     }
 }

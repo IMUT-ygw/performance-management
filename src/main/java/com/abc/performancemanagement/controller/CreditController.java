@@ -7,6 +7,7 @@ import com.abc.performancemanagement.service.CreditService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
 
 @RestController
@@ -29,13 +30,17 @@ public class CreditController {
     //添加加分项
     @PostMapping("/addCredit")
     public Object addCredit(@RequestBody Credit credit){
+        HashMap<String,Integer> price = new HashMap<>();
+        price.put("医务部",500);
+        price.put("后勤部",200);
+        price.put("行政部",400);
+        price.put("技术部",300);
+        price.put("人事部",100);
+        credit.setCPrice(price.get(credit.getCDepart()));
         Integer integer = creditService.addCredit(credit);
         if (integer < 1) {
                 return new ResultMsg<Object>(400, "添加失败", null);
             }
             return new ResultMsg<Object>(200, "添加成功，添加条数：" + integer, null);
-
     }
-
-
 }

@@ -21,7 +21,7 @@ public interface CreditMapper {
     Integer addCredit(Credit credit);
 
     //获取某个部分绩点钱数
-    @Select("select c_price from credit where c_depart = #{cDepart}")
-    Integer getPrice(String cPrice);
+    @Select("select * from credit where c_depart = #{cDepart}")
+    List<Credit> getPrice(String cDepart);
 
 }

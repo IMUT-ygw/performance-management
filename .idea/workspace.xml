@@ -2,36 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e55cc9-d4c7-4e69-8269-e9c59482d8f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/performance-management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/performance-management.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/AchievementsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/AchievementsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/GetAllController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/GetAllController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PerformanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PerformanceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PersonnelManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PersonnelManagementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PerformanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PerformanceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PersonnelManagementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PersonnelManagementMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PostMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/TeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/TeamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/PersonnelManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/PersonnelManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/GetAllService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/GetAllService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/PerformanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/PerformanceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/PersonnelManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/PersonnelManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/CreditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/CreditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/AchievementsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/AchievementsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/CreditMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/CreditMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/PerformanceResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/PerformanceResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/AchievementsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/AchievementsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/CreditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/CreditService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/AchievementsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/AchievementsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/GetAllController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/GetAllController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PerformanceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PerformanceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PersonnelManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PersonnelManagementController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PerformanceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PerformanceMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PersonnelManagementMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PersonnelManagementMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PostMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/TeamMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/TeamMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/pojo/PersonnelManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/pojo/PersonnelManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/GetAllService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/GetAllService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/PerformanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/PerformanceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/PersonnelManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/PersonnelManagementService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/CreditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/CreditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/AchievementsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/AchievementsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/CreditMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/CreditMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/AchievementsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/AchievementsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/CreditService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/CreditService.class" afterDir="false" />
     </list>
     <list id="cbdb435f-6a18-4560-9c51-02c79c6b5ddb" name="完成" comment="" />
     <list id="51affb6b-2848-4390-8667-2244d89bc742" name="完成 asdas" comment="" />
@@ -89,6 +76,11 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/logistics/logistics" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.abc.performancemanagement.pojo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,7 +169,7 @@
       <workItem from="1611904726686" duration="5802000" />
       <workItem from="1612007211761" duration="1228000" />
       <workItem from="1612059756027" duration="5799000" />
-      <workItem from="1612316341760" duration="3469000" />
+      <workItem from="1612316341760" duration="23902000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1611466258622</created>
@@ -256,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611472087190</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="完成了  月绩效统计">
+      <created>1612322522357</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612322522358</updated>
+    </task>
+    <task id="LOCAL-00013" summary="完成了  月绩效统计">
+      <created>1612322648568</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612322648568</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +330,7 @@
     <MESSAGE value="完成&#10;asdas&#10;&#10;as&#10;d" />
     <MESSAGE value="完成" />
     <MESSAGE value="添加删除员工及信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加删除员工及信息" />
+    <MESSAGE value="完成了  月绩效统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了  月绩效统计" />
   </component>
 </project>

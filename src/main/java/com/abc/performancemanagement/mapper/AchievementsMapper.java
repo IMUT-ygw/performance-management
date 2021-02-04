@@ -1,7 +1,6 @@
 package com.abc.performancemanagement.mapper;
 
-import com.abc.performancemanagement.pojo.Achievements;
-import com.abc.performancemanagement.pojo.PersonnelManagement;
+import com.abc.performancemanagement.pojo.*;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
@@ -50,6 +49,39 @@ public interface AchievementsMapper {
 
     @Delete("delete from achievements where ac_id = #{acId}")
     Integer deleteUser(String acId);
+
+
+
+    @Select("select * from achievements where ac_id = #{acId}")
+    List<Achievements> getByUserAddMonth(String acId);
+
+
+    //获取所有部门绩效奖金
+    @Select("SELECT ac_depart as depart ,SUM(ac_value) as price ,ac_date as date ,SUM(ac_salary) as money FROM achievements GROUP BY ac_date;")
+    List<PerformanceOfTheCombinedDepart> getCombinedAllDepart();
+
+    //获取医院绩效奖金
+    @Select("SELECT ac_depart as depart ,SUM(ac_value) AS price ,ac_date AS date ,SUM(ac_salary) AS money FROM achievements GROUP BY ac_date;")
+    List<PerformanceOfTheCombinedDepart> getCombined();
+
+    //获取某个部门的绩效奖金
+    @Select("SELECT ac_depart as depart,SUM(ac_value) AS price ,ac_date AS date ,SUM(ac_salary) AS money FROM achievements WHERE ac_depart = #{depart} GROUP BY ac_date ;")
+    List<PerformanceOfTheCombinedDepart> getCombinedByDepart(String depart);
+
+    //获取某个部门某个科室的绩效奖金
+    @Select("SELECT ac_team as team ,ac_depart as depart,SUM(ac_value) AS price ,ac_date AS date ,SUM(ac_salary) AS money FROM achievements WHERE ac_depart = #{depart} and ac_team = #{team} GROUP BY ac_date ;")
+    List<PerformanceOfTheCombinedDepartAndTeam> getCombinedByDepartAndTeam(String depart,String team);
+
+
+    //获取所有岗位信息
+    @Select("SELECT ac_post as post, ac_team as team ,ac_depart as depart,SUM(ac_value) AS price ,ac_date AS date ,SUM(ac_salary) AS money FROM achievements WHERE ac_depart = #{depart} and ac_team = #{team} GROUP BY ac_date ;")
+    List<PerformanceOfTheCombinedDepartAndTeamAndPost> getCombinedByDepartAndTeamAllPost(String depart,String team);
+
+
+    //获取某个部门某个科室某个岗位的绩效奖金
+    @Select("SELECT ac_post as post ,ac_team as team ,ac_depart as depart,SUM(ac_value) AS price ,ac_date AS date ,SUM(ac_salary) AS money FROM achievements WHERE ac_depart = #{depart} and ac_team = #{team} and ac_post = #{post} GROUP BY ac_date ;")
+    List<PerformanceOfTheCombinedDepartAndTeamAndPost> getCombinedByDepartAndTeamAndPost(String depart,String team,String post);
+
 
 
 }
