@@ -18,7 +18,7 @@ public interface PerformanceMapper {
 
 
     //添加每个员工的加减分情况
-    @Insert("insert into performance values(#{perKind},#{perValue},#{perDate},#{perDescribe},#{perUser})")
+    @Insert("insert into performance(per_kind,per_value,per_date,per_describe,per_user) values(#{perKind},#{perValue},#{perDate},#{perDescribe},#{perUser})")
     @Options(keyColumn = "per_id",keyProperty = "perId",useGeneratedKeys = true)
     Integer addPerformance(Performance performance);
 

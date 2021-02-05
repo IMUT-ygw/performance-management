@@ -3,22 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="88e55cc9-d4c7-4e69-8269-e9c59482d8f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/AchievementsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/AchievementsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/CreditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/CreditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/AchievementsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/AchievementsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/CreditMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/CreditMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/PerformanceResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/PerformanceResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/AchievementsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/AchievementsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/CreditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/service/CreditService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/AchievementsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/AchievementsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/CreditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/CreditController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/AchievementsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/AchievementsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/CreditMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/CreditMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/AchievementsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/AchievementsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/CreditService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/service/CreditService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PerformanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/controller/PerformanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PerformanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/mapper/PerformanceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/Performance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/performancemanagement/pojo/Performance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PerformanceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/controller/PerformanceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PerformanceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/mapper/PerformanceMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/pojo/Performance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/performancemanagement/pojo/Performance.class" afterDir="false" />
     </list>
     <list id="cbdb435f-6a18-4560-9c51-02c79c6b5ddb" name="完成" comment="" />
     <list id="51affb6b-2848-4390-8667-2244d89bc742" name="完成 asdas" comment="" />
@@ -169,7 +160,8 @@
       <workItem from="1611904726686" duration="5802000" />
       <workItem from="1612007211761" duration="1228000" />
       <workItem from="1612059756027" duration="5799000" />
-      <workItem from="1612316341760" duration="23902000" />
+      <workItem from="1612316341760" duration="25010000" />
+      <workItem from="1612486173761" duration="8433000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1611466258622</created>
@@ -262,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612322648568</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="绩效 资金 全完毕">
+      <created>1612444440597</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612444440597</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +330,7 @@
     <MESSAGE value="完成" />
     <MESSAGE value="添加删除员工及信息" />
     <MESSAGE value="完成了  月绩效统计" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了  月绩效统计" />
+    <MESSAGE value="绩效 资金 全完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="绩效 资金 全完毕" />
   </component>
 </project>

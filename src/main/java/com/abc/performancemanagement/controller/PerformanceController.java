@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.sql.Time;
+import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -39,6 +44,11 @@ public class PerformanceController {
     //添加绩效
     @PostMapping("/addPerformance")
     public Object addPerformance(@RequestBody Performance performance ){
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String time = df.format(new Date());
+        Timestamp ts = Timestamp.valueOf(time);
+        performance.setPerDate(ts);
+        System.out.println("参数"+performance);
         Integer integer = performanceService.addPer(performance);
         if (integer < 1) {
             return new ResultMsg<Object>(400, "添加失败", null);
